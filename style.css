@@ -1,0 +1,27 @@
+/* Fixed --> Fix cứng phần tử theo viewport 
+vùng hiển thị nội dung trên màn hình của trình duyệt web */
+.mes-bottom a {
+    font-size: 2.5rem;
+    color:#0099f7;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+.nav {
+    position: fixed;
+    background: silver;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.nav li {
+    display: inline-block;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+}
+h1 {
+    margin-top:70px;
+}
